@@ -1,0 +1,14 @@
+DESCRIPTION:
+A category on NSImage with a class method that adds an overlay on the quicklook icon of a file.
+
+FRAMEWORK:
+Requires QuickLook framework
+
+USAGE:
+Example project is attached. To use it in your project, just copy the NSImage+Overlay in your project and include the appropriate framework.
+
+Example usage is included in the project:
+
++ (NSImage *) quickLookImageOfFile:(NSString *) filePath withOverlayImage:(NSImage *) overlayImage withIconSize:(CGSize) size overlayFrame:(CGRect) frame;
+
+
